@@ -20,10 +20,9 @@ In a terminal, enter "Make". This generates two pdf files: example.pdf and examp
 # Content
 - femtostslides.sty: latex style file.
 - fig/: some useful images (logo, icons, ... ). Icons are from Icojam (http://www.icojam.com/) and are freeware.
-- example.tex, example.pdf: an example of presentation using FemtoSTSlide.
+- example.tex, example.pdf, example-compressed.pdf: an example of presentation using FemtoSTSlides.
 - Makefile: Makefile used to compile the provided example of presentation.
 - README.md: this readme.
 
 # Future improvements
-
 Include examples with integrated videos and mimic a presenter mode.
