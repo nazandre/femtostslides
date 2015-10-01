@@ -12,14 +12,14 @@ If using our Makefile :
 - latexmk : used to compile the Tex files into pdf.
 - gs - Ghostscript : used to compress pdf.
 
-Otherwise, you can simply the LaTex compiler of your choice such as pdflatex!
+Otherwise, you can simply use the LaTex compiler of your choice such as pdflatex!
 
 # Usage
 In a terminal, enter "Make". This generates two pdf files: example.pdf and example-compressed.pdf, a compressed version of example.pdf.
 
-# Repository content
+# Content
 - femtostslides.sty: latex style file.
-- fig: some useful images (logo, icons, ... ). Icons are from Icojam (http://www.icojam.com/) and are freeware.
+- fig/: some useful images (logo, icons, ... ). Icons are from Icojam (http://www.icojam.com/) and are freeware.
 - example.tex, example.pdf: an example of presentation using FemtoSTSlide.
 - Makefile: Makefile used to compile the provided example of presentation.
 - README.md: this readme.
