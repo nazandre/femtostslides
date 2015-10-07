@@ -15,14 +15,15 @@ If using our Makefile :
 Otherwise, you can simply use the LaTex compiler of your choice such as pdflatex!
 
 # Usage
-In a terminal, enter "Make". This generates two pdf files: example.pdf and example-compressed.pdf, a compressed version of example.pdf.
+In a terminal, enter "Make". This generates two pdf files: example.pdf and example-compressed.pdf, a compressed version of example.pdf. Not all the pdf viewers are able to display videos.
 
 # Content
 - femtostslides.sty: latex style file.
 - fig/: some useful images (logo, icons, ... ). Icons are from Icojam (http://www.icojam.com/) and are freeware.
+- video/femtost.mp4: a video giving an overview of Femto-ST Institut (downloaded from https://www.youtube.com/watch?v=2HCW9sSjtaw).
 - example.tex, example.pdf, example-compressed.pdf: an example of presentation using FemtoSTSlides.
 - Makefile: Makefile used to compile the provided example of presentation.
 - README.md: this readme.
 
 # Future improvements
-Include examples with integrated videos and mimic a presenter mode.
+Mimic a presenter mode.
