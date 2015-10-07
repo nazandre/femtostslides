@@ -4,7 +4,13 @@
 \usepackage{femtostslides}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
-\usepackage{multimedia}
+\usepackage{multimedia} % for video support
+
+\usepackage{pgfpages} % for note support
+\setbeamertemplate{note page}[plain]
+%\pgfpagesuselayout{2 on 1}[a4paper,border shrink=5mm] 
+%\setbeameroption{show notes on second screen=right}
+\setbeameroption{hide notes}
 
 \title[Short title]{Long title}
 
@@ -39,6 +45,7 @@
   \warning{This is not FEMTO-ST official theme!}
   \end{itemize}
 
+\note{note for the first slide!}
 \end{frame}
 
 \begin{frame} \frametitle{Usage}
@@ -55,6 +62,7 @@
 %https://www.youtube.com/watch?v=2HCW9sSjtaw
 \movie[autostart, loop, width=0.75\textwidth, height=.75\textheight]{}{./video/femtost.mp4}
 \end{center}
+\warning{Not all pdf viewers can display video!}
 \end{frame}
 
 \section{Last Section}
