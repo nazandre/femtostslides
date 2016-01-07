@@ -4,13 +4,10 @@
 \usepackage{femtostslides}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
-\usepackage{multimedia} % for video support
 
-\usepackage{pgfpages} % for note support
-\setbeamertemplate{note page}[plain]
-%\pgfpagesuselayout{2 on 1}[a4paper,border shrink=5mm] 
-%\setbeameroption{show notes on second screen=right}
-\setbeameroption{hide notes}
+%\usepackage{multimedia} % for video support
+\usepackage[absolute,overlay]{textpos}
+\usepackage{extrabeamercmds}
 
 \title[Short title]{Long title}
 
@@ -60,10 +57,21 @@
 \begin{frame} \frametitle{Video}
 \begin{center}
 %https://www.youtube.com/watch?v=2HCW9sSjtaw
-\movie[autostart, loop, width=0.75\textwidth, height=.75\textheight]{}{./video/femtost.mp4}
+%\movie[autostart, loop, width=0.75\textwidth, height=.75\textheight]{}{./video/femtost.mp4}
+\href{run:video/femtost.mp4?autostart&loop}{\includegraphics[height=0.7\textheight]{video/femtost.jpg}}
 \end{center}
 \warning{Not all pdf viewers can display video!}
 \end{frame}
+
+\begin{frame}
+\frametitle{Full Screen Video}
+\begin{center}
+Full screen video on next slide!
+\end{center}
+\end{frame}
+
+\fullFrameMovie[loop]{video/femtost.mp4}{video/femtost.jpg}
+%\fullFrameMovie[loop]{video/femtost.mp4}{video/femtost.jpg}{\CopyrightText{FEMTO-ST}}
 
 \section{Last Section}
 
